@@ -3,9 +3,11 @@ CVE-2018-10933 is called authentication bypass. It uses a bug existing in libssh
 
 ## Simulate the Bug
 ### Prepare the Server
-First download the libssh-0.7.4 (an example of vulnerable version of ssh) from https://www.libssh.org/files/0.7/libssh-0.7.4.tar.xz 
+First download the libssh-0.7.4 (an example of vulnerable version of ssh) from https://www.libssh.org/files/0.7/libssh-0.7.4.tar.xz
+
 Decompress and direct to the filefold of libssh-0.7.4
-And run the following command.
+
+Run the following command.
 
 ```
 mkdir build
